@@ -112,6 +112,12 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                         color = Color.Yellow, // Ganti warna jika perlu
                         modifier = Modifier.padding(top = 10.dp)
                     )
+                    Text(
+                        stringResource(R.string.alamat2), // Teks hardcode
+                        fontSize = 18.sp, // Sesuaikan ukuran font
+                        color = Color.Yellow, // Ganti warna jika perlu
+                        modifier = Modifier.padding(top = 10.dp)
+                    )
 
         }
         Box(
