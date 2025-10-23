@@ -82,6 +82,10 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 containerColor = Color.Blue // Ganti warna jadi Biru
             )
         ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(10.dp)
+            )
 
         }
         Box(
