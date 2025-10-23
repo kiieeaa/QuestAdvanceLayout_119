@@ -118,8 +118,19 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                         color = Color.Yellow, // Ganti warna jika perlu
                         modifier = Modifier.padding(top = 10.dp)
                     )
+                }
+            }
 
         }
+        // CARD KETIGA (MERAH) - INI TAMBAHAN
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Red // Ganti warna jadi Merah
+            )
+        ) {
         Box(
             modifier = Modifier
                 .fillMaxSize()
