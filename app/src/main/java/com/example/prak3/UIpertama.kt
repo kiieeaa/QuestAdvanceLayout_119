@@ -131,6 +131,11 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 containerColor = Color.Red // Ganti warna jadi Merah
             )
         ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(10.dp)
+            ) {
+        }
         Box(
             modifier = Modifier
                 .fillMaxSize()
