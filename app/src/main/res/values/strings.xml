@@ -1,3 +1,8 @@
 <resources>
-
+    <string name="app_name">prak3</string>
+    <string name="prodi">Teknologi informasi</string>
+    <string name="univ">universitas muhammadiyah yogyakarta</string>
+    <string name="nama">Dzakia lailah hamsa</string>
+    <string name="alamat">labuan bajo</string>
+    <string name="copy">copyright,2025</string>
 </resources>
