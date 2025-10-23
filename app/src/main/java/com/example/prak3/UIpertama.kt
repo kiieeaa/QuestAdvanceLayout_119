@@ -97,6 +97,15 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                         .padding(5.dp)
                 )
                 Spacer(modifier = Modifier.width(30.dp))
+                Column {
+                    // Teks sesuai gambar (3 baris)
+                    Text(
+                        stringResource(R.string.nama2), // Teks hardcode
+                        fontSize = 30.sp,
+                        fontFamily = FontFamily.Cursive,
+                        color = Color.White,
+                        modifier = Modifier.padding(top = 15.dp)
+                    )
 
         }
         Box(
