@@ -46,6 +46,15 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(10.dp)
             ) {
+                val gambar = painterResource(R.drawable.download)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
+            }
         }
     }
 }
