@@ -89,6 +89,13 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             {
                 // Gambar umy dari drawable
                 val gambar = painterResource(R.drawable.download)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
 
         }
         Box(
