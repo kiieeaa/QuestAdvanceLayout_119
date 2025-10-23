@@ -71,6 +71,18 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     )
                 }
             }
+
+        }
+        // CARD KEDUA (BIRU) - INI TAMBAHAN
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Blue // Ganti warna jadi Biru
+            )
+        ) {
+
         }
         Box(
             modifier = Modifier
