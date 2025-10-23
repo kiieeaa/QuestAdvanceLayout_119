@@ -135,6 +135,8 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(10.dp)
             ) {
+                val gambar = painterResource(R.drawable.download)
+            }
         }
         Box(
             modifier = Modifier
